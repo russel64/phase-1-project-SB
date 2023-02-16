@@ -1,47 +1,48 @@
 body {
-    background: blueviolet;
-    text-align: center;
-  }
-  
-  #dog-nav {
-    display: flex;
-    justify-content: center;
-    overflow: auto;
-    width: 100%;
-  }
-  
-  #dog-nav img {
-    width: 150px;
-    border: solid black 2px;
-    margin: 0.3em;
-    border-radius: 0.5em;
-  }
-  
-  #dog-display img {
-    height: 35vh;
-    border: solid black 3px;
-    border-radius: 3em;
-  }
-  
-  #dog-display button {
-    background: white;
-    border: solid black 1px;
-    border-radius: 0.5em;
-    margin-top: 1em;
-    padding: 0.75em;
-    font-weight: bold;
-  }
-  
-  form {
-    background: lightskyblue;
-    margin: 2em;
-    border: solid black 3px;
-    border-radius: 3em;
-  }
-  
-  form label {
-    display: block;
-  }
-  
+  background: blueviolet;
+  text-align: center;
+}
 
-  
+#dog-nav {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  width: 100%;
+}
+
+#dog-nav img {
+  width: 150px;
+  border: solid black 2px;
+  margin: 0.3em;
+  border-radius: 0.5em;
+}
+
+#dog-display img {
+  height: 35vh;
+  border: solid black 3px;
+  border-radius: 3em;
+}
+
+#dog-display button {
+  background: white;
+  border: solid black 1px;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  padding: 0.75em;
+  font-weight: bold;
+}
+
+form {
+  background: lightskyblue;
+  margin: 2em;
+  border: solid black 3px;
+  border-radius: 3em;
+}
+
+form label {
+  display: block;
+}
+
+/* form label {
+    display: block;
+  } */
