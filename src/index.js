@@ -65,3 +65,9 @@ form.addEventListener('blur', e => {
 },
 true
 )
+
+// form.addEventListener('blur', e => {
+//     e.target.style.background = ""
+// },
+// true
+// )
