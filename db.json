@@ -1,0 +1,35 @@
+{
+    "dogs": [
+      {
+        "id": 1,
+        "name": "Scooby-Doo",
+        "img_url": "https://www.desicomments.com/wp-content/uploads/Image-Of-Scooby-Doo-Eating-Food-DC-65605.png",
+        "likes": 0
+      },
+      {
+        "id": 2,
+        "name": "Snoopy",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZNiXjatGAE6Al5rRp_3BO0z4M9guUCBU8g&usqp=CAU",
+        "likes": 0
+      },
+      {
+        "id": 3,
+        "name": "Brian Griffin",
+        "img_url": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Brian-Griffin.Family-Guy.webp",
+        "likes": 0
+      },
+      {
+        "id": 4,
+        "name": "Slink",
+        "img_url": "https://celebrationspress.com/wp-content/uploads/2018/07/07021SD.jpg",
+        "likes": 0
+      },
+      {
+        "id": 5,
+        "name": "Jake",
+        "img_url": "https://steamuserimages-a.akamaihd.net/ugc/1018320754273821816/B449E03B4F013AF8FD9A05CAF063EBF2B63F4257/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+        "likes": 0
+      }
+    ]
+  }
+  

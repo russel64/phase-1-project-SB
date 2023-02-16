@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    </meta><script defer src="src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Who's Your Doggy?</title>
+  </head>
+  <body>
+
+    <h1>Who's Your Doggy?</h1>
+
+    <div id="dog-nav">
+
+    </div>
+
+    <div id="dog-display">
+
+      <h2 id="dog-display-name">Dog Name Goes Here</h2>
+
+      <img id="dog-display-image" src="#" alt="dog image goes here">
+
+      <button id="dog-display-likes">0 likes</button>
+
+    </div>
+
+    <form id="new-dog-form">
+      <label for="dog-name-input">New Dog Name:</label>
+      <input type="text" name="dog-name-input">
+
+      <label for="dog-image-input">New Dog Image URL:</label>
+      <input type="text" name="dog-image-input">
+
+      <input type="submit" value="Create Dog">
+    </form>
+
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title> 
+
+    <meta charset="utf-8">
+    </meta><script defer src="src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Who's Your Doggy?</title>
+      
+    <style>
+        body{
+        padding:0% 3% 10% 3%;
+        text-align:center;
+        }
+        h1{
+        color: #32a852;
+        margin-top:30px;
+        }
+      
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px; 
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
+</head>
+  
+<body>
+
+  <h1>Who's Your Doggy?</h1>
+
+    <div id="dog-nav">
+
+    </div>
+
+    <div id="dog-display">
+
+      <h2 id="dog-display-name">Dog Name Goes Here</h2>
+
+      <img id="dog-display-image" src="#" alt="dog image goes here">
+
+      <button id="dog-display-likes">0 likes</button>
+
+    </div>
+
+    <form id="new-dog-form">
+      <label for="dog-name-input">New Dog Name:</label>
+      <input type="text" name="dog-name-input">
+
+      <label for="dog-image-input">New Dog Image URL:</label>
+      <input type="text" name="dog-image-input">
+
+      <input type="submit" value="Create Dog">
+    </form>
+
+    <button onclick="myFunction()">Switch mode</button> 
+      
+    <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+        }
+    </script>
+
+<div class="d-flex flex-column justify-content-center w-100 h-100"></div>
+</body>
+  
+</html>
